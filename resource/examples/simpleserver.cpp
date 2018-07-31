@@ -609,7 +609,7 @@ void * handleSlowResponse (void *param, std::shared_ptr<OCResourceRequest> pRequ
 void PrintUsage()
 {
     std::cout << std::endl;
-    std::cout << "RIOT Simple Server\n";
+    std::cout << "RIOT Simple Server for Innotrans\n";
     std::cout << "Usage : simpleserver <value>\n";
     std::cout << "    Default - Non-secure resource and notify all observers\n";
     std::cout << "    1 - Non-secure resource and notify list of observers\n\n";
