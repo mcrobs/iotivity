@@ -65,7 +65,7 @@ std::string gSupportLink = "https://www.iotivity.org";
 std::string gSystemTime = "2016-01-15T11.01";
 
 // Set of strings for each of device info fields
-std::string  deviceName = "IoTivity Simple Server";
+std::string  deviceName = "IoTivity Simple Server RIOT";
 std::string  deviceType = "oic.wk.tv";
 std::string  specVersion = "ocf.1.1.0";
 std::vector<std::string> dataModelVersions = {"ocf.res.1.1.0", "ocf.sh.1.1.0"};
@@ -609,6 +609,7 @@ void * handleSlowResponse (void *param, std::shared_ptr<OCResourceRequest> pRequ
 void PrintUsage()
 {
     std::cout << std::endl;
+    std::cout << "RIOT Simple Server\n";
     std::cout << "Usage : simpleserver <value>\n";
     std::cout << "    Default - Non-secure resource and notify all observers\n";
     std::cout << "    1 - Non-secure resource and notify list of observers\n\n";
